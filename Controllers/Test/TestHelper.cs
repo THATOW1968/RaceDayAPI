@@ -13,5 +13,5 @@ namespace RaceDayAPI.Tests
 
             return new RaceDayContext(options);
         }
-    }
-}
+    }//end of class
+}//end of namespace
