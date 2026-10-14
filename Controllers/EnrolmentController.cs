@@ -12,9 +12,9 @@ namespace RaceDayAPI.Controllers
         private readonly RaceDayContext _context;
 
         public EnrolmentController(RaceDayContext context)
-        {
+        {//start of public enrolmentcontroller
             _context = context;
-        }
+        }//end of public enrolmentcontroller
 
         // Participant enrols in event
         [HttpPost("enrol")]
