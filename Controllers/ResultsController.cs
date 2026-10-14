@@ -12,9 +12,9 @@ namespace RaceDayAPI.Controllers
         private readonly RaceDayContext _context;
 
         public ResultController(RaceDayContext context)
-        {
+        {//start of result controller
             _context = context;
-        }
+        }//end of result controller
 
         // Organiser adds result
         [HttpPost("add")]
