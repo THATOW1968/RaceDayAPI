@@ -12,9 +12,9 @@ namespace RaceDayAPI.Controllers
         private readonly RaceDayContext _context;
 
         public CategoryController(RaceDayContext context)
-        {
+        {//start of category controller
             _context = context;
-        }
+        }//end of category controller
 
         // Organiser creates category
         [HttpPost("create")]
