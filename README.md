@@ -7,7 +7,7 @@ Organisers can manage events, categories, enrolments, and results, while Partici
 ## Project Setup
 
 ### Requirements:
-- Visual Studio 2022 (or later)
+- Visual Studio 2022 (or later) 
 - .NET 6 or .NET 7 SDK
 - SQL Server installed locally or accessible remotely
 
