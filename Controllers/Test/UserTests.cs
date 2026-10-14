@@ -102,8 +102,8 @@ namespace RaceDayAPI.Tests
             Assert.IsNull(result);
 
         }
-    }
-}   
+    }//end of class
+}//end of namespace 
 
 
 
