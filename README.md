@@ -12,15 +12,8 @@ Organisers can manage events, categories, enrolments, and results, while Partici
 - SQL Server installed locally or accessible remotely
 
 ### Steps
-1. Clone or download this repository.
+1. Download this repository.
 2. Open the solution in Visual Studio.
-3. Install required NuGet packages:
-   - `Microsoft.EntityFrameworkCore.SqlServer`
-   - `Microsoft.EntityFrameworkCore.Tools`
 4. Configure the database connection string in `appsettings.json`.
 
-Example:
-json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=localhost;Database=RaceDayDB;Trusted_Connection=True;"
-}
+
