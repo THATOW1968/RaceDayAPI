@@ -4,10 +4,10 @@ using RaceDayAPI.Database;
 using RaceDayAPI.Models;
 
 namespace RaceDayAPI.Tests
-{
+{//start of namespace
     [TestClass]
     public class UserTests
-    {
+    {//start of class
         [TestMethod]
         public void Register_ShouldCreateUser()
         {
