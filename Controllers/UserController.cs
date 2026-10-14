@@ -14,9 +14,9 @@ namespace RaceDayAPI.Controllers
         private readonly RaceDayContext _context;
 
         public UserController(RaceDayContext context)
-        {
+        {//start of user controller
             _context = context;
-        }
+        }//end of controller
 
         [HttpPost("register")]
         public IActionResult Register(string username, string password, string role)
